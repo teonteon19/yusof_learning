@@ -1,0 +1,56 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.language-selection{
+    width: 60vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > button{
+        width: 20%;
+        height: 80%;
+    }
+}
+
+.content{
+    width: 60vw;
+    /*height: fit-content;*/
+    height: 80vh;/*temporary, i want it height to be adjusted to its content*/
+    background-color: blue;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    & > div{
+        width: 28%;
+        height:28%;
+        /*background-color: blueviolet;*//*for debugging*/
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        & .title{
+            width: 80%;
+            height: 15%;
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 20px;
+        }
+        & .image{
+            width: 80%;
+            height: 75%;
+            background-color: white;
+            border-radius: 20px;
+        }
+    }
+}
