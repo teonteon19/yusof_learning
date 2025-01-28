@@ -1,4 +1,47 @@
-{
-    "name":"yusof",
-    "age":3
-}
+[
+    {
+        "name":"animals",
+        "bahasa_melayu":"haiwan"
+    },
+
+    {
+        "name":"fruits",
+        "bahasa_melayu":"buah-buahan"
+    },
+
+    {
+        "name":"fruits",
+        "bahasa_melayu":"buah-buahan"
+    },
+
+    {
+        "name":"vehicles",
+        "bahasa_melayu":"kenderaan"
+    },
+
+    {
+        "name":"foods",
+        "bahasa_melayu":"makanan"
+    },
+
+    {
+        "name":"alphabets",
+        "bahasa_melayu":"huruf"
+    },
+
+    {
+        "name":"numbers",
+        "bahasa_melayu":["nombor","angka"]
+    },
+
+    {
+        "name":"shapes",
+        "bahasa_melayu":"bentuk"
+    },
+
+    {
+        "name":"colors",
+        "bahasa_melayu":"warna"
+    }
+
+]
