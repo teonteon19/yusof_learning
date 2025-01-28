@@ -43,6 +43,7 @@ class Subcontent{
     createTitleDiv(){
         let title=document.createElement('div');
         title.innerText=this.name
+        return title
     }
 
     createImgDiv(){
@@ -50,6 +51,7 @@ class Subcontent{
         let image=document.createElement('img');
         imgDiv.appendChild(image)
         image.src=this.img_link
+        return imgDiv
     }
 }
 

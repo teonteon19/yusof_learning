@@ -1,32 +1,32 @@
 [
     {
         "name":"animals",
-        "bahasa_melayu":"haiwan"
+        "bahasa_melayu":["haiwan"]
     },
 
     {
         "name":"fruits",
-        "bahasa_melayu":"buah-buahan"
+        "bahasa_melayu":["buah-buahan"]
     },
 
     {
         "name":"fruits",
-        "bahasa_melayu":"buah-buahan"
+        "bahasa_melayu":["buah-buahan"]
     },
 
     {
         "name":"vehicles",
-        "bahasa_melayu":"kenderaan"
+        "bahasa_melayu":["kenderaan"]
     },
 
     {
         "name":"foods",
-        "bahasa_melayu":"makanan"
+        "bahasa_melayu":["makanan"]
     },
 
     {
         "name":"alphabets",
-        "bahasa_melayu":"huruf"
+        "bahasa_melayu":["huruf"]
     },
 
     {
@@ -36,12 +36,12 @@
 
     {
         "name":"shapes",
-        "bahasa_melayu":"bentuk"
+        "bahasa_melayu":["bentuk"]
     },
 
     {
         "name":"colors",
-        "bahasa_melayu":"warna"
+        "bahasa_melayu":["warna"]
     }
 
 ]
