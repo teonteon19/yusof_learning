@@ -22,7 +22,7 @@ class Subcontent{
     constructor(name,bm,url){
         this.name=name;
         this.bm=bm;
-        this.img_link=url+this.name+".png"
+        this.img_link=url+'/'+this.name+".png"
     }
 
     //contentDiv refer to div.content
