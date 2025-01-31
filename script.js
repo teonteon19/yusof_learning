@@ -1,5 +1,7 @@
 let content
 let thumbnails
+let animal
+let animalStyle
 const contentDiv=document.querySelector('.content')
 
 let url="https://teonteon19.github.io/yusof_learning/thumbnails-image"
@@ -10,6 +12,9 @@ fetch(url+"/main.json").then(response=>response.json()).then(result=>{
         let subContent=new Subcontent(element.name,element.bahasa_melayu,url)
         subContent.createSubcontentDiv(contentDiv)
     });
+
+    animal=document.querySelector('.animals');
+    animalStyle=getComputedStyle(animal)
 
     thumbnails=document.querySelectorAll('.thumbnails');
     thumbnails.forEach(thumbnail=>{
