@@ -51,10 +51,6 @@ body{
             height: 75%;
             background-color: white;
             border-radius: 20px;
-            & img{
-                width: 100%;
-                height: 100%;
-            }
         }
     }
 }

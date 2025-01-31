@@ -22,6 +22,7 @@ class Subcontent{
     constructor(name,bm,url){
         this.name=name;
         this.bm=bm;
+        this.page_link=url+'/category/'+name+'.html'
         this.img_link=url+'/'+this.name+".png"
     }
 
@@ -39,6 +40,8 @@ class Subcontent{
         let image=document.createElement('img');
         imgDiv.appendChild(image)
         image.src=this.img_link
+        image.style.width=window.getComputedStyle(div).width.replace('px','')*0.8;
+        image.style.height=window.getComputedStyle(div).height.replace('px','')*0.75;
         div.appendChild(imgDiv)
 
         contentDiv.appendChild(div)
