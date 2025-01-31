@@ -3,6 +3,7 @@ let thumbnails
 let animal
 let animalStyle
 const contentDiv=document.querySelector('.content')
+let divStyle
 
 let url="https://teonteon19.github.io/yusof_learning/thumbnails-image"
 
@@ -54,7 +55,7 @@ class Subcontent{
         let image=document.createElement('img');
         imgDiv.appendChild(image)
         image.src=this.img_link
-        let divStyle=window.getComputedStyle(div);
+        divStyle=window.getComputedStyle(div);
         image.style.width=`${divStyle.width.replace('px','')*0.8}px`;
         image.style.height=`${divStyle.height.replace('px','')*0.75}px`;
         div.appendChild(imgDiv)
