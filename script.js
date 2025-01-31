@@ -16,7 +16,7 @@ fetch(url+"/main.json").then(response=>response.json()).then(result=>{
 
     animal=document.querySelector('#animals');
     animalStyle=getComputedStyle(animal)
-    let img=document.querySelector('#anima img')
+    let img=document.querySelector('#animals img')
     img.style.width=`${animalStyle.width.replace(px,'')*0.8}px`;
     img.style.height=`${animalStyle.height.replace(px,'')*0.75}px`;
 
@@ -58,9 +58,10 @@ class Subcontent{
         let image=document.createElement('img');
         imgDiv.appendChild(image)
         image.src=this.img_link
-        divStyle=window.getComputedStyle(div);
-        image.style.width=`${divStyle.width.replace('px','')*0.8}px`;
-        image.style.height=`${divStyle.height.replace('px','')*0.75}px`;
+        //why not working as expected???
+        //divStyle=window.getComputedStyle(div);
+        //image.style.width=`${divStyle.width.replace('px','')*0.8}px`;
+        //image.style.height=`${divStyle.height.replace('px','')*0.75}px`;
         div.appendChild(imgDiv)
 
         contentDiv.appendChild(div)
