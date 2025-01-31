@@ -1,4 +1,5 @@
 let content
+let thumbnails
 const contentDiv=document.querySelector('.content')
 
 let url="https://teonteon19.github.io/yusof_learning/thumbnails-image"
@@ -9,6 +10,14 @@ fetch(url+"/main.json").then(response=>response.json()).then(result=>{
         let subContent=new Subcontent(element.name,element.bahasa_melayu,url)
         subContent.createSubcontentDiv(contentDiv)
     });
+
+    thumbnails=document.querySelectorAll('.thumbnails');
+    thumbnails.forEach(thumbnail=>{
+        thumbnail.addEventListener('click',()=>{
+            open(thumbnail.page_link)
+        })
+    })
+    
 })
 
 /*
@@ -40,8 +49,8 @@ class Subcontent{
         let image=document.createElement('img');
         imgDiv.appendChild(image)
         image.src=this.img_link
-        image.style.width=window.getComputedStyle(div).width.replace('px','')*0.8;
-        image.style.height=window.getComputedStyle(div).height.replace('px','')*0.75;
+        image.style.width=`${window.getComputedStyle(div).width.replace('px','')*0.8}px`;
+        image.style.height=`${window.getComputedStyle(div).height.replace('px','')*0.75}px`;
         div.appendChild(imgDiv)
 
         contentDiv.appendChild(div)
