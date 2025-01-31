@@ -16,6 +16,9 @@ fetch(url+"/main.json").then(response=>response.json()).then(result=>{
 
     animal=document.querySelector('#animals');
     animalStyle=getComputedStyle(animal)
+    let img=document.querySelector('#anima img')
+    img.style.width=`${animalStyle.width.replace(px,'')*0.8}px`;
+    img.style.height=`${animalStyle.height.replace(px,'')*0.75}px`;
 
     thumbnails=document.querySelectorAll('.thumbnails');
     thumbnails.forEach(thumbnail=>{
