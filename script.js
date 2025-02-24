@@ -1,47 +1,34 @@
 let content
 let thumbnails
-let animal
-let animalStyle
 const contentDiv=document.querySelector('.content')
-let divStyle
+import { Subcontent } from "./subcontent.js"
 
-let url="https://teonteon19.github.io/yusof_learning/thumbnails-image"
+//let url="https://teonteon19.github.io/yusof_learning/thumbnails-image"//url address for gihub cdn
+let url='http://127.0.0.1:5500'
 
-fetch(url+"/main.json").then(response=>response.json()).then(result=>{
+fetch(url+"/thumbnails-image/main.json").then(response=>response.json()).then(result=>{
     content=result;
     content.forEach(element => {
-        let subContent=new Subcontent(element.name,element.bahasa_melayu,url)
+        let subContent=new Subcontent(element.name,element.bahasa_melayu,url,'/thumbnails-image/')
         subContent.createSubcontentDiv(contentDiv)
     });
 
-    animal=document.querySelector('#animals');
-    animalStyle=getComputedStyle(animal)
-    let img=document.querySelector('#animals img')
-    img.style.width=`${animalStyle.width.replace(px,'')*0.8}px`;
-    img.style.height=`${animalStyle.height.replace(px,'')*0.75}px`;
-
-    thumbnails=document.querySelectorAll('.thumbnails');
+    
+    thumbnails=document.querySelectorAll('.thumbnail');
     thumbnails.forEach(thumbnail=>{
-        thumbnail.addEventListener('click',()=>{
-            open(thumbnail.page_link)
-        })
+        thumbnail.addEventListener('click',()=>window.open(url+'/category/'+thumbnail.id+'/'+thumbnail.id+'.html',"_self"))
     })
+    
     
 })
 
 /*
-content is a list
-for each element in content create a div with 2 divs that will show the title and image
-
-*/
-
-
 class Subcontent{
-    constructor(name,bm,url){
+    constructor(name,bm,url,folder_url=''){
         this.name=name;
         this.bm=bm;
-        this.page_link=url+'/category/'+name+'.html'
-        this.img_link=url+'/'+this.name+".png"
+        this.page_link=url+'/category/'+name+'.html'//to be review
+        this.img_link=url+folder_url+this.name+".png"//localhost not for guthub cdn
     }
 
     //contentDiv refer to div.content
@@ -51,22 +38,21 @@ class Subcontent{
         div.id=this.name;
 
         let title=document.createElement('div');
+        title.className='title'
         title.innerText=this.name
         div.appendChild(title)
 
         let imgDiv=document.createElement('div');
+        imgDiv.className='image'
         let image=document.createElement('img');
         imgDiv.appendChild(image)
         image.src=this.img_link
-        //why not working as expected???
-        //divStyle=window.getComputedStyle(div);
-        //image.style.width=`${divStyle.width.replace('px','')*0.8}px`;
-        //image.style.height=`${divStyle.height.replace('px','')*0.75}px`;
         div.appendChild(imgDiv)
 
         contentDiv.appendChild(div)
     }
 
 }
+*/
 
 

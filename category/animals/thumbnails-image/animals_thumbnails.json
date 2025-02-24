@@ -1,0 +1,34 @@
+[
+    {
+        "name":"all",
+        "bm":"semua haiwan"
+    },
+
+    {
+        "name":"mammals",
+        "bm":"mamalia"
+    },
+
+    {
+        "name":"reptiles",
+        "bm":"reptilia"
+    },
+    
+    {
+        "name":"dinosaur",
+        "bm":"dinosaur"
+    },
+
+
+    {
+        "name":"sea_creature",
+        "bm":"hidupan_laut"
+    },
+
+
+    {
+        "name":"insects",
+        "bm":"serangga"
+    }
+    
+]

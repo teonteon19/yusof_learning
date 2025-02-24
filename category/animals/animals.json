@@ -1,0 +1,329 @@
+[
+    [
+        {
+            "name":"all",
+            "bm":"semua haiwan"
+        },
+
+        {
+            "name":"mammal",
+            "bm":"mamalia"
+        },
+
+        {
+            "name":"reptile",
+            "bm":"reptilia"
+        },
+        
+        {
+            "name":"dinosaur",
+            "bm":"dinosaur"
+        },
+
+
+        {
+            "name":"sea creature",
+            "bm":"hidupan laut"
+        },
+
+        {
+            "name":"insect",
+            "bm":"serangga"
+        },
+
+        {
+            "name":"amphibia",
+            "bm":"amfibia"
+        }
+    ],
+
+    [
+        {
+            "name":{"en":"elephant","bm":"gajah"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"rhinoceros","bm":"badak sumbu"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"hippopotamus","bm":"badak air"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"tiger","bm":"harimau"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"lion","bm":"singa"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"cat","bm":"kucing"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"monkey","bm":"monyet"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"horse","bm":"kuda"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"giraffe","bm":"zirafah"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"goat","bm":"kambing"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"cow","bm":"lembu"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"whale","bm":"ikan paus"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"rabbit","bm":"kambing"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"dog","bm":"anjing"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"alpaca","bm":"alpaca"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"camel","bm":"unta"},
+            "category":{"en":"mammal","bm":"mamalia"}
+        },
+
+        {
+            "name":{"en":"snake","bm":"ular"},
+            "category":{"en":"reptile","bm":"reptilia"}
+        },
+
+        {
+            "name":{"en":"crocodile","bm":"buaya"},
+            "category":{"en":"reptile","bm":"reptilia"}
+        },
+
+        {
+            "name":{"en":"goanna","bm":"biawak"},
+            "category":{"en":"reptile","bm":"reptilia"}
+        },
+
+        {
+            "name":{"en":"lizard","bm":"cicak"},
+            "category":{"en":"reptile","bm":"reptilia"}
+        },
+
+        {
+            "name":{"en":"komodo dragon","bm":"biawak komodo"},
+            "category":{"en":"reptile","bm":"reptilia"}
+        },
+
+        {
+            "name":{"en":"chameleon","bm":"sesumpah"},
+            "category":{"en":"reptile","bm":"reptilia"}
+        },
+
+        {
+            "name":{"en":"turtle","bm":"penyu"},
+            "category":{"en":"reptile","bm":"reptilia"}
+        },
+
+        {
+            "name":{"en":"tortoise","bm":"kura-kura"},
+            "category":{"en":"reptile","bm":"reptilia"}
+        },
+
+        {
+            "name":{"en":"tyrannosaurus rex","bm":"tyrannosaurus rex"},
+            "category":{"en":"dinosaur","bm":"dinosaur"}
+        },
+
+        {
+            "name":{"en":"velociraptor","bm":"velociraptor"},
+            "category":{"en":"dinosaur","bm":"dinosaur"}
+        },
+
+        {
+            "name":{"en":"sauroposeidon","bm":"sauroposeidon"},
+            "category":{"en":"dinosaur","bm":"dinosaur"}
+        },
+
+        {
+            "name":{"en":"brontosaurus","bm":"brontosaurus"},
+            "category":{"en":"dinosaur","bm":"dinosaur"}
+        },
+
+        {
+            "name":{"en":"stegosaurus","bm":"stegosaurus"},
+            "category":{"en":"dinosaur","bm":"dinosaur"}
+        },
+
+        {
+            "name":{"en":"triceratops","bm":"triceratops"},
+            "category":{"en":"dinosaur","bm":"dinosaur"}
+        },
+
+        {
+            "name":{"en":"pteranodon","bm":"pteranodon"},
+            "category":{"en":"dinosaur","bm":"dinosaur"}
+        },
+
+        {
+            "name":{"en":"lambeosaurus","bm":"lambeosaurus"},
+            "category":{"en":"dinosaur","bm":"dinosaur"}
+        },
+
+        {
+            "name":{"en":"parasaurolophus","bm":"parasaurolophus"},
+            "category":{"en":"dinosaur","bm":"dinosaur"}
+        },
+
+        {
+            "name":{"en":"ant","bm":"semut"},
+            "category":{"en":"insect","bm":"serangga"}
+        },
+
+        {
+            "name":{"en":"butterfly","bm":"rama-rama"},
+            "category":{"en":"insect","bm":"serangga"}
+        },
+
+        {
+            "name":{"en":"dragonfly","bm":"pepatung"},
+            "category":{"en":"insect","bm":"serangga"}
+        },
+
+        {
+            "name":{"en":"ladybird","bm":"kumbang"},
+            "category":{"en":"insect","bm":"serangga"}
+        },
+
+        {
+            "name":{"en":"grasshopper","bm":"belalang"},
+            "category":{"en":"insect","bm":"serangga"}
+        },
+
+        {
+            "name":{"en":"praying mantis","bm":"mentadak"},
+            "category":{"en":"insect","bm":"serangga"}
+        },
+
+        {
+            "name":{"en":"bee","bm":"lebah"},
+            "category":{"en":"insect","bm":"serangga"}
+        },
+
+        {
+            "name":{"en":"frog","bm":"katak"},
+            "category":{"en":"amphibia","bm":"amfibia"}
+        },
+
+        {
+            "name":{"en":"toad","bm":"kodok"},
+            "category":{"en":"amphibia","bm":"amfibia"}
+        },
+
+        {
+            "name":{"en":"salamander","bm":"salamander"},
+            "category":{"en":"amphibia","bm":"amfibia"}
+        },
+
+        {
+            "name":{"en":"newt","bm":"neut"},
+            "category":{"en":"amphibia","bm":"amfibia"}
+        },
+
+        {
+            "name":{"en":"hammerhead shark","bm":"yu tukul"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"stingray","bm":"ikan pari"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"pufferfish","bm":"ikan buntal"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"fish","bm":"ikan"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"shark","bm":"ikan jerung"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"starfish","bm":"tapak sulaiman"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"shrimp","bm":"udang"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"squid","bm":"sotong"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"jellyfish","bm":"obor-obor"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"seahorse","bm":"kuda laut"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"lobster","bm":"udang kara"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"horseshoe crab","bm":"belangkas"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        },
+
+        {
+            "name":{"en":"crab","bm":"ketam"},
+            "category":{"en":"sea creature","bm":"hidupan laut"}
+        }
+        
+
+    ]
+
+]
