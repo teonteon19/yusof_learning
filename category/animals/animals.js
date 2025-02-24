@@ -20,7 +20,7 @@ const animalThumbnailsContentBM=document.getElementById("animal_thumbnails_conte
 const languageSelectionButtons=document.querySelectorAll('[data-language]')
 const imgFormat=['jpg','png','jpeg','webp','avif']
 
-let url="https://teonteon19.github.io/yusof_learning/thumbnails-image"//url address for gihub cdn
+let url="https://teonteon19.github.io/yusof_learning"//url address for gihub cdn//need to change 
 //let url='http://127.0.0.1:5500'
 
 home.addEventListener('click',()=>{
