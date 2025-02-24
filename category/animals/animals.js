@@ -1,4 +1,4 @@
-import { Subcontent } from "/subcontent.js";
+//import { Subcontent } from "/subcontent.js";//for debugging
 
 let content
 let thumbnails
@@ -200,7 +200,7 @@ function changeSelectedLanguage(language){
 
 
 
-/*
+
 //for debugging
 //enable script type to be not set as 'module'
 class Subcontent{
@@ -233,5 +233,5 @@ class Subcontent{
     }
 
 }
-*/
+
 
