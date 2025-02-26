@@ -3,8 +3,8 @@ let thumbnails
 const contentDiv=document.querySelector('.content')
 //import { Subcontent } from "./subcontent.js"
 
-let url="https://teonteon19.github.io/yusof_learning"//url address for gihub cdn
-//let url='http://127.0.0.1:5500'
+//let url="https://teonteon19.github.io/yusof_learning"//url address for gihub cdn
+let url='http://127.0.0.1:5500'
 
 fetch(url+"/thumbnails-image/main.json").then(response=>response.json()).then(result=>{
     content=result;
