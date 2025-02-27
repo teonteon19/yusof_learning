@@ -97,7 +97,7 @@ function createAlphabetsThumbnails(category,alphabetsJSON){
         audio.playbackRate=0.7;
         let audioSource=document.createElement('source');
 
-        audioSource.src=`/category/alphabets/alphabets_sound/${alphabet}.mp3`
+        audioSource.src=`/yusof_learning/category/alphabets/alphabets_sound/${alphabet}.mp3`
         audio.appendChild(audioSource)
         div.appendChild(audio)
         
