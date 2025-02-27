@@ -1,0 +1,179 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav{
+    width: 40vw;
+    height:5vh ;
+    display: flex;
+    
+    & .home{
+        width: 20%;
+        height: 100%;
+       
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        & > svg{
+            width: 70%;
+            height: 70%;
+        }
+    }
+    
+
+    & .language-selection{
+    
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        > button{
+            width: 20%;
+            height: 80%;
+        }
+    }
+}
+
+
+
+.content{
+    width: 60vw;
+    /*height: fit-content;*/
+    height: 80vh;/*temporary, i want it height to be adjusted to its content*/
+   
+    background-color: blue;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    & > div{
+        width: 30%;
+        height: 30%;
+        /*background-color: blueviolet;*//*for debugging*/
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /*border: 2px solid red;*//*for debugging*/
+        & .title{
+            width: 80%;
+            height: 10%;
+            background-color: yellow;
+            text-align: center;
+            border-radius: 20px;
+        }
+        & .image{
+            width: 85%;
+            height: 85%;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            & img{
+                width: 90%;
+                height: 90%;
+            }
+        }
+    }
+}
+
+
+.image_show{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    z-index: 2;
+    display: none;
+}
+
+.thumbnails{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    z-index: 2;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 160px;
+    font-weight: 900;
+    /*flex-direction: row;*/
+    & .thumbnails_content{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color:white;
+        overflow-y: scroll;
+        & .alphabet_thumbnail{
+            width: 30%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            & img{
+                width: 95%;
+                height: 95%;
+            };
+        };
+        & .alphabet_thumbnail:hover{
+            background-color: gainsboro;
+        }
+        
+    };
+    & .close{
+        width: 5%;
+        height: 5%;
+        position: fixed;
+        right: 0;
+        top: 0;
+        font-size: 16px;
+        & :hover{
+            background-color: aqua;
+        }
+        & svg{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    & .case_selection{
+        width: 5%;
+        height: 10%;
+        position: fixed;
+        right: 0;
+        top: 10%;
+        & div{
+            width: 100%;
+            height: 50%;
+            text-align: center;
+            text-wrap: wrap;/*what is this?*/
+            /*font-weight: 900;*/
+            font-size: x-large;
+        }
+        & div:hover{
+            background-color: aqua;
+        };
+        & div[data-case|=A]{
+            background-color: blueviolet;
+        }
+    }  
+}

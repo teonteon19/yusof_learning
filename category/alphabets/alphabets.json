@@ -1,0 +1,27 @@
+[
+    {
+        "name":"all",
+        "bm":"semua",
+        "capital":"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "small":"abcdefghijklmnopqrstuvwxyz"
+    },
+
+    {
+        "name":"consonant",
+        "bm":"konsonan",
+        "capital":"BCDFGHJKLMNPQRSTVWXYZ",
+        "small":"bcdfghjklmnpqrstvwxyz"
+    },
+
+    {
+        "name":"vowel",
+        "bm":"vokal",
+        "capital":"AEIOU",
+        "small":"aeiou"
+    },
+
+    {
+        "name":"test",
+        "bm":"ujian"
+    }
+]

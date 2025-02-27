@@ -15,8 +15,10 @@ const animalThumbnails=document.querySelector('.animal_thumbnails')
 const animalThumbnailsContent=document.querySelector('.animal_thumbnails_content')
 const animalThumbnailsClose=document.getElementById('animal_thumbnails_close')
 let selectedLanguage='en';
-const animalThumbnailsContentEN=document.getElementById("animal_thumbnails_content_language_selection_en")
-const animalThumbnailsContentBM=document.getElementById("animal_thumbnails_content_language_selection_bm")
+
+//following 2 are redundant
+//const animalThumbnailsContentEN=document.getElementById("animal_thumbnails_content_language_selection_en")
+//const animalThumbnailsContentBM=document.getElementById("animal_thumbnails_content_language_selection_bm")
 const languageSelectionButtons=document.querySelectorAll('[data-language]')
 const imgFormat=['jpg','png','jpeg','webp','avif']
 
